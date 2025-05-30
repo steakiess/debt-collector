@@ -10,4 +10,13 @@ export default defineConfig({
         }),
         tailwindcss(),
     ],
+
+     server: {
+        host: true,
+        allowedHosts: ['83ec-2001-448a-80d2-121d-2468-f3a5-550a-5472.ngrok-free.app'],
+     
+
+
+
+  },
 });
